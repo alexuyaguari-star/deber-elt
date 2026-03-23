@@ -1,0 +1,13 @@
+# Ignorar logs de Airflow y dbt
+logs/
+dbt/logs/
+dbt/.user.yml
+dbt/profiles.yml
+
+# Ignorar carpeta problemática
+dbt/proyecto_unl/
+
+# Ignorar archivos temporales
+*.pyc
+__pycache__/
+.DS_Store
